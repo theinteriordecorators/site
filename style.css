@@ -47,10 +47,6 @@ a {
     display: flex;
 }
 
-.embeds iframe {
-    width: 100%;
-}
-
 .tiny {
     font-size: 0.1rem;
 }
