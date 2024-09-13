@@ -46,3 +46,14 @@ a {
 .tiny {
     font-size: 0.1rem;
 }
+
+.meet-the-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.team-member {
+    background-color: cornflowerblue;
+    padding: 0.5rem;
+}
