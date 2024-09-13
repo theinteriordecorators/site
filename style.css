@@ -26,10 +26,12 @@ footer {
     background-color: purple;
     text-align: center;
 
-    position: fixed;
-    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 body {
