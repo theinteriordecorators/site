@@ -43,6 +43,10 @@ a {
     font-family: Impact;
 }
 
+.embeds {
+    display: flex;
+}
+
 .tiny {
     font-size: 0.1rem;
 }
