@@ -28,10 +28,6 @@ footer {
 
     display: flex;
     justify-content: space-evenly;
-
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
 }
 
 body {
