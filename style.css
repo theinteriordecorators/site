@@ -57,3 +57,12 @@ a {
     background-color: cornflowerblue;
     padding: 0.5rem;
 }
+
+#big-slice {
+    background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
+    background-size: contain;
+}
+
+#big-slice p {
+    color: blue;
+}
