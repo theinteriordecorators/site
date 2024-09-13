@@ -47,6 +47,10 @@ a {
     display: flex;
 }
 
+.embeds iframe {
+    width: 100%;
+}
+
 .tiny {
     font-size: 0.1rem;
 }
@@ -67,6 +71,7 @@ a {
     background-size: contain;
 }
 
-#big-slice p {
-    color: blue;
+#big-slice p, #big-slice h3 {
+    color: white;
+    text-shadow: 0 0 10px black;
 }
