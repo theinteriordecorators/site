@@ -47,6 +47,10 @@ a {
     display: flex;
 }
 
+.small {
+    font-size: 0.5rem;
+}
+
 .tiny {
     font-size: 0.1rem;
 }
@@ -68,4 +72,10 @@ a {
 #big-slice {
     background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
     background-size: contain;
+}
+
+.aidan {
+    font-family: 'segoe script';
+    text-align: right;
+    margin: 0;
 }
