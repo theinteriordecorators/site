@@ -59,15 +59,13 @@ a {
 
 .team-member {
     background-color: cornflowerblue;
+    text-shadow: 0 0 10px black;
     padding: 0.5rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 #big-slice {
     background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
     background-size: contain;
-}
-
-#big-slice p, #big-slice h3 {
-    color: white;
-    text-shadow: 0 0 10px black;
 }
