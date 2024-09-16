@@ -18,8 +18,15 @@ body {
 header {
     background-color: tomato;
     display: flex;
-    align-items: center;
-    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+header > h1 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
 }
 
 footer {
@@ -43,25 +50,21 @@ a {
     font-family: 'comic sans ms', cursive;
 }
 
-.buttons {
-
-    a:link, a:visited {
+a:link, a:visited {
     background-color: tomato;
     font-family: Impact;
     color: turquoise;
-    padding: 35px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 0px;
     text-shadow: 2px 2px 2px black;
-
+    padding: 0.5rem;
 }
+
 a:hover, a:active {
-    background-color: tomato;
+    filter: brightness(0.9);
     color: white;
-}
-
 }
 
 .embeds {
@@ -74,6 +77,10 @@ a:hover, a:active {
 
 .tiny {
     font-size: 0.1rem;
+}
+
+.center {
+    text-align: center;
 }
 
 .meet-the-team {
@@ -92,13 +99,13 @@ a:hover, a:active {
     font-size: 0.8rem
 }
 
-#big-slice {
-    background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
-    background-size: contain;
-}
-
 .aidan {
     font-family: 'segoe script';
     text-align: right;
     margin: 0;
+}
+
+#big-slice {
+    background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
+    background-size: contain;
 }
