@@ -43,8 +43,8 @@ a {
     font-family: 'comic sans ms', cursive;
 }
 
-.buttons {   
-    
+.buttons {
+
     a:link, a:visited {
     background-color: tomato;
     font-family: Impact;
@@ -56,9 +56,9 @@ a {
     border-radius: 0px;
     text-shadow: 2px 2px 2px black;
 
-} 
+}
 a:hover, a:active {
-    background-color: rgb(172, 67, 49);
+    background-color: tomato;
     color: white;
 }
 
