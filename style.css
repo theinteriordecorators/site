@@ -57,7 +57,6 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 0px;
     text-shadow: 2px 2px 2px black;
     padding: 0.5rem;
 }
@@ -69,6 +68,10 @@ a:hover, a:active {
 
 .embeds {
     display: flex;
+}
+
+.medium {
+    font-size: 0.75rem;
 }
 
 .small {
@@ -97,6 +100,20 @@ a:hover, a:active {
     width: 15rem;
     height: 12rem;
     font-size: 0.8rem
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.review-container {
+    width: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
 }
 
 .aidan {
