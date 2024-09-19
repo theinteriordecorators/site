@@ -37,21 +37,8 @@ footer {
     justify-content: space-evenly;
 }
 
-body {
-    background-color: black;
-}
-
-h1 {
-    color: white;
-}
-
 a {
-    color: white;
-    font-family: 'comic sans ms', cursive;
-}
-
-a:link, a:visited {
-    background-color: tomato;
+    background-color: inherit;
     font-family: Impact;
     color: turquoise;
     text-align: center;
@@ -114,12 +101,6 @@ a:hover, a:active {
     width: 20rem;
     max-width: 20rem;
     min-width: 20rem;
-}
-
-.contact {
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
 }
 
 .aidan {
