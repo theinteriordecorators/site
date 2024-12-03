@@ -1,7 +1,14 @@
 html {
-    font-family: 'Webdings', 'Comic Neue', cursive;
+    font-family: 'Flow Circular';
     background-color: black;
 }
+
+.flow-circular-regular {
+  font-family: "Flow Circular", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .glitch-wrapper {
     width: 100%;
