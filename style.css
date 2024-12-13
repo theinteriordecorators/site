@@ -1,5 +1,10 @@
 html {
+<<<<<<< HEAD
     font-family: 'Flow Circular';
+=======
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+>>>>>>> parent of 3b8ffc3 (TEXT GLOW and review bakground and the comic nuew fon)
     background-color: black;
 }
 
@@ -12,9 +17,78 @@ html {
 
 .glitch-wrapper {
     width: 100%;
+<<<<<<< HEAD
     height: 100%;
     display: flex;
     align-items: center;
+=======
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: inherit;
+    font-family: Impact;
+    color: turquoise;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.5rem;
+}
+
+a:hover, a:active {
+    filter: brightness(0.9);
+    color: white;
+}
+
+.embeds {
+    display: flex;
+}
+
+.medium {
+    font-size: 0.75rem;
+}
+
+.small {
+    font-size: 0.5rem;
+}
+
+.tiny {
+    font-size: 0.1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.meet-the-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: cornflowerblue;
+    text-shadow: 3px 3px 2px black;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 12rem;
+    font-size: 0.8rem
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+>>>>>>> parent of 3b8ffc3 (TEXT GLOW and review bakground and the comic nuew fon)
     justify-content: center;
     text-align: center;
     background-color: #000000;
@@ -35,6 +109,7 @@ html {
     top: 0;
     left: -2px;
     width: 100%;
+<<<<<<< HEAD
     color: 80px;
     background-color: #000000;
     overflow: hidden;
@@ -187,3 +262,23 @@ html {
     }
  }
  
+=======
+}
+
+.review-container {
+    width: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
+}
+
+.aidan {
+    font-family: 'segoe script';
+    text-align: right;
+    margin: 0;
+}
+
+#big-slice {
+    background-image: url("assets/457744609_784437667014126_3924890136704405397_n.jpg");
+    background-size: contain;
+}
+>>>>>>> parent of 3b8ffc3 (TEXT GLOW and review bakground and the comic nuew fon)
